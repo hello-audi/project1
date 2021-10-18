@@ -63,6 +63,12 @@ label[for=email]
   font-size: 19px;
 }
 
+label[for=password]
+{
+  margin-left: 50px;
+  font-size: 19px;
+}
+
 input[type="checkbox"]
 {
   display: inline;
@@ -84,7 +90,7 @@ input[type="submit"]
 {
   body 
   {
-    background-color: white;
+    background-color: #FFFFFF;
   }
   
   input[type='email']
@@ -104,7 +110,7 @@ input[type="submit"]
 {
   body 
   {
-    background-color: white;
+   background-color: white;
   }
   
   input[type='email']
