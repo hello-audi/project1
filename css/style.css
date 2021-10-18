@@ -80,20 +80,41 @@ input[type="submit"]
 }
 
 /* Mobile Version */
-@media screen and (min-width: 950px) 
-{
-  body 
-  {
-    background-color: #46839b;
-  }
-   
-}
-
-/* Desktop Version */
-@media screen and (min-width: 780px) 
+@media screen and (min-width: 850px) 
 {
   body 
   {
     background-color: white;
+  }
+  
+  input[type='email']
+  {
+        width: 80%;
+        display: block;
+  }
+
+  label 
+  {
+    width: 10px;
+  }
+}
+
+/* Desktop Version */
+@media screen and (min-width: 900px) 
+{
+  body 
+  {
+    background-color: white;
+  }
+  
+  input[type='email']
+  {
+     width: 60%;
+     display: block;
+  }
+ 
+  label 
+  {
+    width: 20px;
   }
 }
