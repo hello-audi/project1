@@ -6,32 +6,28 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/style.css" />
-  <script type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
-
 <body>
-<main id="content">
-  <form method="get" action="#null">
-    <h1>Secret Diabetes Newsletter</h1>
+<div class="container">
+    <h1>Subscribe to ITM Student Newsletter</h1>
     <p>
-      Sign up and learn 5 secrets to fight Diabetes!
+      Stay informed about developments regarding to ITM at Illinois Tech
     </p>
-    <ol>
-      <li id="input-email">
+</div>
+
+<div id="container">
+  <form method="get" action="#null" autocomplete="on">
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" placeholder="Enter your first name" name="fname_field">
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text" placeholder="Enter your last name" name="lname_field">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" pattern="^.+@.+$" />
-      </li>
-      <li id="input-age-verification">
-        <input type="checkbox" id="age-verification" name="age-verification" value="18" />
-        <label for="age-verification">I am over 18 years old</label>
-      </li>
-      <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Subscribe" />
-      </li>
-    </ol>
-  </form>
-</main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/site.js"></script>
-</body>
+        <input id="email" type="text" placeholder="Enter your hawk email" name="email_field">
+        <input id="dnewsletter" type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+      	<input id="submit" type="submit" name="submit" value="Subscribe">
+	</form>
+  </div>
+ </body>
 </html>
