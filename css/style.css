@@ -80,12 +80,13 @@ input[type="submit"]
 }
 
 /* Mobile Version */
-@media screen and (min-width: 780px) 
+@media screen and (min-width: 950px) 
 {
   body 
   {
-    background-color: blue;
+    background-color: #46839b;
   }
+   
 }
 
 /* Desktop Version */
