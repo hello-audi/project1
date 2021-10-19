@@ -25,10 +25,10 @@
         <input id="lname" type="text" placeholder="Enter your last name" name="lname">
         <label for="email">Hawk Email</label>
         <input id="email" type="text" placeholder="Enter your hawk email" name="email">
-        <label for="email">Password</label>
+        <label for="password">Password</label>
         <input id="text" type="text" placeholder="Enter your password" name="password">
         <input id="dnewsletter" type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
-      	<input id="submit" type="submit" name="submit" value="Sign up">
+      	<input id="submit" type="submit" name="submit" value="Sign up" onclick="validateEmail(document.subscribe.email)">
 	</form>
   </div>
  </body>
