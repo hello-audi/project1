@@ -93,6 +93,11 @@ input[type="submit"]
     background-color: #FFFFFF;
   }
   
+  p 
+{   
+  line-height: 40px;
+}
+
   input[type='email']
   {
         width: 80%;
