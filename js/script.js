@@ -1,7 +1,10 @@
-function validateForm() {
-  let x = document.form["fname"].value;
-  if (x == "") {
-    alert("First name cannot be empty");
-    return false;
-  }
-}
+function smbt(){
+
+	var signup = document.getElementById("submit");
+	document.getElementById("submit").addEventListener("click", function() 
+		{
+			var output = "Welcome to the ITM family, " + document.forms["form"]["fname"].value + " " + document.forms["form"]["lname"].value;
+			alert(output);
+  		});
+	}
+window.addEventListener('load', smbt);
