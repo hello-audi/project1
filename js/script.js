@@ -1,3 +1,16 @@
+function myFunction() {
+  var checkBox = document.getElementById("dnewsletter");
+  var text = document.getElementById("text");
+  if (!checkBox.checked == true)
+  {
+    text.style.display = "none";
+  } 
+  else 
+  {
+     text.style.display = "block";
+  }
+}
+
 function smbt()
 {
 	document.getElementById("submit").addEventListener("click", function() 
@@ -14,3 +27,4 @@ function smbt()
 }
 
 window.addEventListener('load', smbt);
+
