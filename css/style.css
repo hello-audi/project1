@@ -52,25 +52,19 @@ input
 
 label[for=fname]
 {
-   margin-left: 50px;
+   margin-left: 52px;
    font-size: 19px;
 }
 
 label[for=lname]
 {
-   margin-left: 50px;
+   margin-left: 52px;
    font-size: 19px;
 }
 
 label[for=email]
 {
-  margin-left: 50px;
-  font-size: 19px;
-}
-
-label[for=password]
-{
-  margin-left: 50px;
+  margin-left: 52px;
   font-size: 19px;
 }
 
