@@ -10,7 +10,7 @@ function myFunction() {
 
 function smbt() {
   document.getElementById("submit").addEventListener("click", function () {
-    var output = "Welcome to the ITM family, " + document.forms["form"]["fname"].value + " " + document.forms["form"]["lname"].value;
+    var output = "Welcome to the ITM family, " + document.forms["form"]["fname"].value + " " + document.forms["form"]["lname"].value + "!";
     alert(output);
   });
 
