@@ -1,7 +1,7 @@
 html {
   font-family: 'Heebo', sans-serif;
-  font-size: 17px;
-  line-height: 1.19em;
+  font-size: 20px;
+  line-height: 1.19em; /* ~19px */
   padding: 5px;
 }
 
@@ -10,7 +10,7 @@ form {
 }
 
 body {
-  line-height: 60px;
+  line-height: 3.75em; /* 60px */
 }
 
 .container {
@@ -23,14 +23,14 @@ h1 {
   font-family: 'Architects Daughter', cursive;
   font-size: 40px;
   padding: 28px;
-  line-height: 48px;
+  line-height: 1em; /* 16px */
   padding-bottom: 16px;
   color: white;
 }
 
 p {
   padding: 13px;
-  line-height: 17px;
+  line-height: 1.063em; /* 17px */
   font-size: 18px;
   margin-left: 14px;
   color: white;
@@ -84,7 +84,7 @@ input[type="submit"] {
     font-size: 18px;
   }
   body {
-    line-height: 70px;
+    line-height: 4.375em; /* 70px */
   }
   h1 {
     color: black;
@@ -115,7 +115,7 @@ input[type="checkbox"] {
     font-size: 20px;
   }
   body {
-    line-height: 80px;
+    line-height: 5em; /* 80px */
   }
   h1 {
     color: black;
